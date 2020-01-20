@@ -1,1 +1,1 @@
-web: gunicorn exportfeed_parsing.wsgi
+web: gunicorn exportfeed_parsing.wsgi --log-file -
